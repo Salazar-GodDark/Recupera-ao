@@ -1,2 +1,5 @@
 sku = "PRD-004-A-v2"
-"PRD-004-A-v2".replace("PRD-004-A-v2").upper("PRD-004-A-v2")
+
+sku_formatado = sku.replace("-", "").upper()
+
+print(sku_formatado)
