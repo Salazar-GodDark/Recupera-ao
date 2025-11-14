@@ -10,5 +10,5 @@ for nota in notas:
 
 media = soma_notas / len(notas)
 
-print(f"A média das notas é: {media:.2f}")
+print(f"A média das notas é: {media}")
 print(f"Quantidade de notas iguais ou superiores a 7.0 são: {quantidade_aprovadas}")
